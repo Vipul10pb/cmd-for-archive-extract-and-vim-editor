@@ -1,0 +1,71 @@
+  touch file{1..10}.txt
+  515  ls
+  516  gzip file1.txt
+  517  ls
+  518  gunzip file1.txt.gz
+  519  ls
+  520  gzip file{1..10}.txt
+  521  ls
+  522  gzip -d  file{1..10}.txt
+  523  ls
+  524  bunzip file1.txt
+  525  bzip file1.txt
+  526  bzip2 file1.txt
+  527  ls
+  528  bunzip2 file1.txt.bz2
+  529  ls
+  530  echo sgfzbj
+  531  ls
+  532  rm -rf *
+  533  ls
+  534  echo this is my file > file.txt
+  535  ls
+  536  CAT FILE.TXT
+  537  cat file.txt
+  538  ls
+  539  nano file.txt
+  540  vim file.txt
+  541  cat file.txt
+  542  touch roshan.txt
+  543  ls
+  544  vim roshan.txt
+  545  cat roshan.txt
+  546  vim vipul.txt
+  547  ls
+  548  emacs file2
+  549  cd
+  550  cd /
+  551  ls
+  552  cd /etc
+  553  ls
+  554  vim passwd
+  555  cronjob
+  556  jobs
+  557  cd
+  558  clear
+  559  cd /
+  560  cd /etc
+  561  vim passwd
+  562  cd
+  563  ls
+  564  rm vipul.txt
+  565  ls
+  566  mkdir bshdfb
+  567  ls
+  568  rm -r bshdfb/
+  569  ls
+  570  mkdir bds
+  571  ls
+  572  rm -rf bds/
+  573  ls
+  574  mkdir file
+  575  ls
+  576  mv file.txt file
+  577  ls
+  578  cd file
+  579  ls
+  580  mv file.txt file2.txt
+  581  ls
+  582  clear
+  583  history
+
